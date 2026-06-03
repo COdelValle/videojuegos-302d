@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: backend-gamecatalog:latest
-          imagePullPolicy: Never
+          image: 339713057785.dkr.ecr.us-east-1.amazonaws.com/backend_gamecatalog:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:

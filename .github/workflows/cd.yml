@@ -31,8 +31,8 @@ jobs:
 
             - name: Definir las URL de los ECR
               run: |
-                echo "BACKEND_ECR=${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/backend_gamecatalog:latest" >>$GITHUB_ENV
-                echo "FRONTEND_ECR=${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/frontend_gamecatalog:latest" >>$GITHUB_ENV
+                echo "BACKEND_ECR=${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/backend_gamecatalog" >>$GITHUB_ENV
+                echo "FRONTEND_ECR=${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/frontend_gamecatalog" >>$GITHUB_ENV
 
             - name: Build backend
               run: |

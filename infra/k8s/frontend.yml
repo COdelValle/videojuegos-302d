@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 339713057785.dkr.ecr.us-east-1.amazonaws.com/frontend_gamecatalog:latest
+          image: 019874521665.dkr.ecr.us-east-1.amazonaws.com/frontend_gamecatalog:latest
           #no descargar la imagen desde Docker Hub, sinó que local.
           imagePullPolicy: Always
           ports:
